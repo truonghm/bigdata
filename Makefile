@@ -90,3 +90,8 @@ run-maxtemp-spark:
 	cat result-maxtemp/part-00000
 
 maxtemp-spark: build-spark run-maxtemp-spark
+
+run-countmonth-spark:
+	spark-submit --class foo.CountMonth --master local spark.jar
+
+countmonth-spark: build-spark run-countmonth-spark
