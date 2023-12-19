@@ -1,0 +1,34 @@
+# project specifics
+materials/*.pdf
+materials/*.tar.gz
+materials/*.tgz
+materials/eclipse/*
+materials/hadoop-2.7.1/*
+materials/jdk1.8.0_202/*
+materials/spark-2.4.3-bin-hadoop2.7/*
+result-*/*
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*

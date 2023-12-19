@@ -1,0 +1,11 @@
+{
+	"java.project.referencedLibraries": [
+		"lib/**/*.jar",
+		"materials/hadoop-2.7.1/share/hadoop/common/hadoop-common-2.7.1.jar",
+		"materials/hadoop-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.1.jar",
+		"materials/hadoop-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.1.jar",
+		"materials/spark-2.4.3-bin-hadoop2.7/jars/spark-core_2.11-2.4.3.jar",
+		"materials/spark-2.4.3-bin-hadoop2.7/jars/scala-library-2.11.12.jar",
+		"materials/spark-2.4.3-bin-hadoop2.7/jars/hadoop-common-2.7.3.jar"
+	]
+}

@@ -1,0 +1,57 @@
+cd
+
+mkdir bigdata
+
+cd bigdata
+
+# install java
+
+tar xzf jdk-8u202-linux-x64.tar.gz
+
+# update your .bashrc
+
+export JAVA_HOME=$HOME/bigdata/jdk1.8.0_202
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+##############################
+
+# install eclipse
+
+tar xzf eclipse-jee-2019-09-R-linux-gtk-x86_64.tar.gz
+
+# update your .bashrc
+
+export PATH=$HOME/bigdata/eclipse:$PATH
+
+
+##############################
+
+# install hadoop
+
+tar xzf hadoop-2.7.1.tar.gz
+
+# update your .bashrc
+
+export HADOOP_HOME=$HOME/bigdata/hadoop-2.7.1
+export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
+
+##############################
+
+# install spark
+
+tar xzf spark-2.4.3-bin-hadoop2.7.tgz
+
+export SPARK_HOME=$HOME/bigdata/spark-2.4.3-bin-hadoop2.7
+export PATH=$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH
+
+##############################
+
+# verify everything's allright
+
+which java
+which eclipse
+which hadoop
+which spark-submit
+
+
