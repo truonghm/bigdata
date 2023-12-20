@@ -12,6 +12,7 @@ public class WordCount {
 
 	public static void main(String[] args) {
 		String inputFile = "materials/spark-subject/filesample.txt";
+		// String inputFile = "hdfs://localhost:9000/input-wc/filesample.txt";
 		String outputFile = "result-wordcount";
 
 		SparkConf conf = new SparkConf().setAppName("WordCount");

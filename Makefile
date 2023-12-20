@@ -78,14 +78,14 @@ build-spark:
 	jar cf spark.jar -C spark/bin foo
 
 run-wordcount-spark:
-	rm -rf result-maxtemp
+	-rm -rf result-maxtemp
 	spark-submit --class foo.WordCount --master local spark.jar
 	cat result-wordcount/part-00000
 
 wordcount-spark: build-spark run-wordcount-spark
 
 run-maxtemp-spark:
-	rm -rf result-maxtemp
+	-rm -rf result-maxtemp
 	spark-submit --class foo.MaxTemp --master local spark.jar
 	cat result-maxtemp/part-00000
 
